@@ -1,0 +1,23 @@
+{
+  "name": "promise-dependency-flow",
+  "version": "1.0.0",
+  "description": "Handle the control flow of multiple promises with dependencies",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Votion/promise-dependency-flow.git"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "jest": "^17.0.3",
+    "semantic-release": "^6.3.2"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "author": {
+    "name" : "Seamus P. H. Leahy",
+    "email" : "seamus@votion.co"
+  },
+  "license": "ISC"
+}

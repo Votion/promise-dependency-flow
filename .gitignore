@@ -1,0 +1,9 @@
+node_modules
+.env
+.idea
+.idea/*
+*.iml
+logs
+.eslintcache
+extracted-messages
+.DS_Store
