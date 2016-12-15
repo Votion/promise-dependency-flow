@@ -1,23 +1,30 @@
 {
   "name": "promise-dependency-flow",
-  "version": "1.0.0",
+  "version": "0.0.0-development",
   "description": "Handle the control flow of multiple promises with dependencies",
+  "author": {
+    "name": "Seamus P. H. Leahy",
+    "email": "seamus@votion.co"
+  },
+  "license": "ISC",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Votion/promise-dependency-flow.git"
+    "url": "https://github.com/Votion/promise-dependency-flow.git"
+  },
+  "scripts": {
+    "commit": "git-cz",
+    "test": "jest",
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
   },
   "dependencies": {},
   "devDependencies": {
+    "commitizen": "^2.9.0",
+    "cz-conventional-changelog": "^1.2.0",
     "jest": "^17.0.3",
     "semantic-release": "^6.3.2"
   },
-  "scripts": {
-    "test": "jest"
-  },
-  "author": {
-    "name" : "Seamus P. H. Leahy",
-    "email" : "seamus@votion.co"
-  },
-  "license": "ISC"
+  "czConfig": {
+    "path": "node_modules/cz-conventional-changelog"
+  }
 }
